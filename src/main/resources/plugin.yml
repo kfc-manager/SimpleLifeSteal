@@ -1,0 +1,8 @@
+name: SimpleLifeSteal
+version: '${project.version}'
+main: kalle.com.simplelifesteal.SimpleLifeSteal
+api-version: 1.13
+commands:
+  addhearts:
+    usage: /addhearts <amount of hearts> <player name>
+    description: Adds the given amount of hearts (can be negative) to the player.
